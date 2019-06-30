@@ -1,3 +1,2 @@
-# xiaoli
-trymore
-### a handsome boy!
+# tools to improve my work efficient
+language: .bat
