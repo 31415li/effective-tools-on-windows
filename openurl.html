@@ -12,45 +12,25 @@
   </style>
 
 <script>
-
-
      function openUrl(url){
-var txt = clipboardData.getData('Text');
-            window.open(url+txt);
-        }
-
-
-function myFunction(){
-	
-openUrl('https://www.ldoceonline.com/dictionary/');
-//openUrl('www.webster-dictionary.net/definition/');
-//openUrl('https://en.oxforddictionaries.com/definition/');
-openUrl('https://www.macmillandictionary.com/us/dictionary/american/');
-
- //openUrl('https://en.oxforddictionaries.com/thesaurus/');
-openUrl('https://www.merriam-webster.com/thesaurus/');
-openUrl('http://www.ozdic.com/collocation-dictionary/');
-
-openUrl('https://www.collinsdictionary.com/dictionary/english-thesaurus/');
-//openUrl('https://www.freethesaurus.com/');
-openUrl('http://www.thesaurus.com/browse/');
-
-
-
-}
+	var txt = clipboardData.getData('Text');
+        window.open(url+txt);
+	}
+function myFunction(){	
+	openUrl('https://www.ldoceonline.com/dictionary/');
+	openUrl('http://www.thesaurus.com/browse/');
+	openUrl('https://www.macmillandictionary.com/us/dictionary/american/');
+	openUrl('https://www.merriam-webster.com/thesaurus/');
+	openUrl('http://www.ozdic.com/collocation-dictionary/');
+	openUrl('https://www.collinsdictionary.com/dictionary/english-thesaurus/');
+	//openUrl('https://www.freethesaurus.com/');
+	//openUrl('www.webster-dictionary.net/definition/');
+	//openUrl('https://en.oxforddictionaries.com/definition/');
+ 	//openUrl('https://en.oxforddictionaries.com/thesaurus/');
+	}
 </script>
- 
-
 </head>
- 
-
-
 
 <body  onload="myFunction()">
 Please copy one word first!
-
-   
-  
-
-
 </body>
